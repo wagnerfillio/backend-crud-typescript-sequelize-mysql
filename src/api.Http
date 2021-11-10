@@ -1,0 +1,20 @@
+###create
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "email": "wagner.fillio@gmail.com",
+    "nome": "wagner.fillio"
+}
+
+###findAll
+GET http://localhost:8000/users
+
+###findOne
+GET http://localhost:8000/users/1
+
+###findOne
+PUT http://localhost:8000/users/1
+
+###findOne
+DELETE http://localhost:8000/users/1
